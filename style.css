@@ -20,9 +20,12 @@ body{
 header {
     color: white;
     margin-top: 0px;
+    padding: 7px;
     padding-top: 15px;
+    padding-bottom: 10px;
     height: 150px;
     background-image: linear-gradient(to bottom, #23A84B, #2f5c3c);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.623);
 }
 
 header > h1, h4 {
@@ -44,7 +47,6 @@ nav > a {
     font-weight: 900;
     border-radius: 4px;
     transition: .6s;
-    box-sizing: content-box;
 }
 
 nav > a:hover {
@@ -54,12 +56,10 @@ nav > a:hover {
 }
 
 nav {
-    padding-left: 11px; 
-    background-image:linear-gradient(to bottom, #2f5c3c, #285536) ;
-    
+    padding-left: 10px;    
 }
 
-@media(max-width: 668px){
+@media(max-width: 660px){
     nav {
         display: none;
     }
@@ -95,6 +95,29 @@ main > h1 {
 article > p {
     text-align: justify;
     text-indent: 30px;
+}
+
+.strongverde {
+    color: #27723c;
+    cursor: pointer;
+}
+
+.linksexternos{
+    text-decoration: none;
+    color: #1b7935;
+    font-weight: bold;
+}
+
+.linksexternos::after{
+    content: '🔗';
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* footer */
