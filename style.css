@@ -136,6 +136,29 @@ div.video > iframe {
     height: 90%;
 }
 
+aside{
+    border-radius: 0px 0px 10px 10px;
+    background-color: #7edf9b;
+}
+
+#titleaside {
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: "Bebas", cursive ;
+    color: white;
+    background-color: #31b358;
+    margin-bottom: 0px;
+}
+
+aside > p {
+    text-indent: 30px;
+    text-align: justify;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
 /* footer */
 
 footer{
