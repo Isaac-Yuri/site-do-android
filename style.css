@@ -22,7 +22,7 @@ header {
     margin-top: 0px;
     padding: 7px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     height: 150px;
     background-image: linear-gradient(to bottom, #23A84B, #2f5c3c);
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.623);
@@ -118,6 +118,22 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+div.video {
+    background-color: #24492f;
+    padding: 15px;
+    margin: 0px -15px 30px -15px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 /* footer */
