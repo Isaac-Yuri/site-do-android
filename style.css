@@ -11,6 +11,7 @@
    /* Configurações globais */ 
    font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
     margin: 0px;
     background-color: #8ad3a0;
@@ -26,11 +27,13 @@ header {
     height: 150px;
     background-image: linear-gradient(to bottom, #23A84B, #2f5c3c);
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.623);
+    
 }
 
 header > h1, h4 {
     margin-top: 0px; 
     text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.466);
 }
 
 header > *{
@@ -67,6 +70,7 @@ nav {
 
 /* conteudo */
 main{
+    line-height: 1.8em;
     max-width: 890px;
     margin: auto;
     margin-bottom: 15px;
@@ -135,10 +139,11 @@ div.video > iframe {
     width: 90%;
     height: 90%;
 }
-
+/* configurando aside */
 aside{
     border-radius: 0px 0px 10px 10px;
     background-color: #7edf9b;
+    box-shadow: 2px 2px 6px rgba(71, 70, 70, 0.637);
 }
 
 #titleaside {
@@ -157,6 +162,12 @@ aside > p {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
 }
 
 /* footer */
