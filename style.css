@@ -91,7 +91,7 @@ main{
 }
 
 h2.letraAndroid{
-    background-image: linear-gradient(to right, #a7d3b4, white);
+    background-image: linear-gradient(to right, #bee9cb, white);
     border-radius: 2px;
     padding: 1.5px;
 }
@@ -114,7 +114,6 @@ article > p {
     text-decoration: none;
     color: #18692f;
     font-weight: bold;
-    background-color: #7edf9b;
 }
 
 .linksexternos::after{
