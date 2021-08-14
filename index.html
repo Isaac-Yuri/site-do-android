@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Android</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <header id="cabecalho">
         <h1>Curiosidades de Tecnologia</h1>
         <h4>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</h4>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Notícias</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Fale Conosco</a>
+        <nav id="nav">
+            <button id="btn-mobile" onclick="toggleMenu()">Menu</button>
+            <ul id="menu">
+                <li><a href="#" class="menuoptions">Home</a></li>
+                <li><a href="#" class="menuoptions">Notícias</a></li>
+                <li><a href="#" class="menuoptions">Curiosidades</a></li>
+                <li><a href="#" class="menuoptions">Fale Conosco</a></li>
+            </ul>
+            
         </nav>
     </header>
         
