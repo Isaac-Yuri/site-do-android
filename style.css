@@ -37,7 +37,7 @@ header > h1, h4 {
 }
 
 header h4 {
-    margin-bottom: 18px;
+    margin-bottom: 27px;
 }
 
 header h1 {
@@ -49,12 +49,12 @@ header > *{
 }
 
 /* menu */
-ul, nav {
+
+nav {
     margin: 0px;
-    padding: 0px;
 }
 
-li > a {
+a {
     color: #8ad3a0;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,51 +62,17 @@ li > a {
     padding: 10px;
     border-radius: 5px;
     transition: .6s;
+    margin: 0px 10px 0px 0px;
 }
 
-li > a:hover {
+a:hover {
     background-color: #8ad3a0;
     color: #24492f;
     padding: 15px;
 }
 
-#menu {
-    display: flex;
-    list-style: none;
-    gap: .8rem;
-}
-
-#menu a {
-    display: block;
-}
-
-nav {
-    display: flex;
-}
-
-nav button {
-    display: none;
-}
-
 @media(max-width: 660px){
-    #menu {
-        /* display: none; */
-        position: absolute;
-        right: 0px;
-        width: 100%;
-        top: 165px;
-        background: #2f5c3c;
-        display: block;
-        
-    }
-
-    nav button {
-        display: block;
-        position: absolute;
-        right: 0; 
-    }
-
-    #nav.active #menu{
+    nav {
         display: none;
     }
 }  
